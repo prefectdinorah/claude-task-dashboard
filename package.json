@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/claude-task-dashboard"
+    "url": "https://github.com/prefectdinorah/claude-task-dashboard"
   },
   "bin": {
     "claude-tasks": "./bin/cli.js",
