@@ -1,0 +1,27 @@
+# Dev files
+node_modules
+*.log
+.env*
+tasks.json
+
+# Source maps
+*.map
+
+# TypeScript source (we ship compiled)
+# server/*.ts (keep for dev)
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Docs (optional, README is included)
+docs/
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__
