@@ -69,9 +69,9 @@ export function TaskCard({ task, index, isDragging: isDraggingProp }: TaskCardPr
         {/* Контент */}
         <div className="flex-1 min-w-0">
           {/* Активная форма (что делается сейчас) */}
-          {isActive && task.activeForm && (
+          {isActive && task.active_form && (
             <p className="text-sm text-status-progress font-medium mb-1">
-              {task.activeForm}
+              {task.active_form}
             </p>
           )}
 
@@ -87,10 +87,10 @@ export function TaskCard({ task, index, isDragging: isDraggingProp }: TaskCardPr
 
           {/* Метаданные */}
           <div className="flex items-center gap-3 mt-2">
-            {task.updatedAt && (
+            {task.updated_at && (
               <span className="text-xs text-text-tertiary flex items-center gap-1">
                 <Clock size={12} />
-                {formatTime(task.updatedAt)}
+                {formatTime(task.updated_at)}
               </span>
             )}
 
